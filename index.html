@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#36322e">
+  <link rel="icon" href="/favicon-192x192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="/favicon-192x192.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="/style.css">
+  <title>VoxDei</title>
+</head>
+<body>
+
+  <div id="shelf">
+    <div class="thumb-grid" id="thumb-grid">
+      <div class="shelf-header">
+        <div class="shelf-title">VoxDei</div>
+        <div class="shelf-actions">
+          <button id="btn-refresh" class="icon-btn" aria-label="Refresh content" title="Download latest content">&#128259;</button>
+          <button id="btn-install" class="nav-btn" aria-label="Install app">📰 install</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="reader">
+    <div class="paper-stack">
+      <div class="paper-page" id="paper-page">
+        <header class="article-header">
+          <div class="article-title-row">
+            <h1 class="article-title" id="article-title"></h1>
+            <div class="article-actions">
+              <button id="btn-back" class="icon-btn" aria-label="Back to articles">📑</button>
+              <button id="btn-share" class="icon-btn" aria-label="Share article">🔗</button>
+            </div>
+          </div>
+          <div class="article-meta" id="article-meta"></div>
+          <div class="article-desc" id="article-desc"></div>
+        </header>
+        <div id="article-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

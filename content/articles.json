@@ -1,0 +1,12 @@
+[
+  {"id":"getting-started","title":"Getting Started!","description":"How to use this publishing system: creating articles, writing in markdown, and navigating content offline.","date":"2025-01-15"},
+  {"id":"stoic-practice","title":"Stoic Practice","description":"Practical stoicism for everyday life — morning reflection, journaling, and the discipline of perception.","date":"2025-01-18"},
+  {"id":"on-writing","title":"On Writing","description":"Notes on clarity, brevity, and the craft of writing well in the age of noise.","date":"2025-01-20"},
+  {"id":"deep-work","title":"Deep Work","description":"On the value of distraction-free concentration, how to protect time for it, and why the capacity for depth must be trained.","date":"2025-01-22"},
+  {"id":"systems-thinking","title":"Systems Thinking","description":"How feedback loops, delays, and structure produce outcomes — and where to intervene when things go wrong.","date":"2025-01-25"},
+  {"id":"solitude","title":"Solitude","description":"The difference between being alone and being in genuine solitude, and why the mind needs unstructured quiet to think.","date":"2025-01-28"},
+  {"id":"on-simplicity","title":"On Simplicity","description":"Complexity accumulates by default. Simplicity is always a choice — and almost always the harder, better one.","date":"2025-02-01"},
+  {"id":"micro","title":"One Line","description":"A single sentence.","date":"2025-02-05"},
+  {"id":"two-lines","title":"Two Lines","description":"First line of thought. Second line continues and completes the idea.","date":"2025-02-05"},
+  {"id":"long-read","title":"The Long Read","description":"A deliberately long article with many sections, showing how the reader handles extended content, deep scroll, and navigation between parts.","date":"2025-02-10","excerpt":"This piece spans several thousand words across many sections. It demonstrates scrolling, section anchors, and the paper stack layout under extended reading. Each section adds a distinct idea while building toward a broader conclusion."}
+]
